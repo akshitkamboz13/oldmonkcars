@@ -24,7 +24,37 @@
     border-bottom-right-radius: 20px;
    opacity: 0.9;
   }
-  
+  .login{
+    width:20%;
+    left:45%;
+    opacity: 1;
+    width:10vh;
+    height:10vh;
+    border-radius:20px;
+    position:absolute;
+    text-align: right;
+    top:45%;
+    
+    
+    }
+  .huihui{
+    width:20%;
+    height:250px;
+    left:40%;
+    position:relative;
+    background-color: #f2e9ea;
+    
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   opacity: 0.9;
+   
+    
+    
+    text-align: center;
+  }
+
   .loader_bg{
     position: fixed;
     z-index: 999999;
@@ -92,9 +122,10 @@ header{
     position: fixed;
 }
 .logo {
-    width: 30%;
+    width: 0%;
     float: left;
     line-height: 100px;
+    left: 80%;
 }
 .logo a {
     text-decoration: none;
@@ -125,13 +156,7 @@ nav a {
     bottom:0pc;
  
 }
-.login1{
-  background-image: url(../backgrounds/Picsart_22-05-19_22-27-54-695.png);
-  background-repeat: no-repeat;
-  
-  
-  text-align: center;
-}
+
 .login{
 opacity: 1;
 
@@ -164,8 +189,15 @@ body{
   font-family: sans-serif;
   font-weight: 200;
   position:absolute;
-  top: 80%;
-  left: 5%;
+  top: 50.5%;
+  left: 6%;
+}
+.Loginbutton{
+  font-family: sans-serif;
+  font-weight: 200;
+  position:absolute;
+  top: 58.4%;
+  left: 12.5%;
 }
 /* .li-footer__item-link, .li-footer__copy-text {
     display: -webkit-box;
